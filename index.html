@@ -1,71 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Task 2</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/77f383b0b4.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
 </head>
 
 <body>
   <header id="top">
     <nav class="navbar">
-      <li><a href="pages/home.html">Home</a></li>
-      <li><a href="pages/product.html">Our Products</a></li>
-      <li><a href="pages/about.html">About Us</a></li>
-      <li><a href="pages/contact.html">Contact us</a></li>
+      <li class ="clickable"><a href="#">Home</a></li>
+      <li class ="clickable"><a href="#">Our Products</a></li>
+      <li><a href="#" class ="clickable">About Us</a></li>
+      <li class ="clickable"><a href="#">Contact us</a></li>
     </nav>
   </header>
   <main>
-    <div class="container-body">
-      <img src="src/image (1).jpg" alt="image">
-      <img src="src/image (2).jpg" alt="image">
-      <img src="src/image (17).jpg" alt="image">
-      <img src="src/image (18).jpg" alt="image">
-      <img src="src/image (5).jpg" alt="image">
-      <img src="src/image (6).jpg" alt="image">
-      <img src="src/image (7).jpg" alt="image">
-      <img src="src/image (8).jpg" alt="image">
-      <img src="src/image (9).jpg" alt="image">
-      <img src="src/image (20).jpg" alt="image">
-      <img src="src/image (11).jpg" alt="image">
-      <img src="src/image (13).jpg" alt="image">
-      <img src="src/image (14).jpg" alt="image">
-      <img src="src/image (15).jpg" alt="image">
-      <img src="src/image (16).jpg" alt="image">
-      <img src="src/image (3).jpg" alt="image">
-      <img src="src/image (4).jpg" alt="image">
-      <img src="src/image (12).jpg" alt="image">
-      <img src="src/image (10).jpg" alt="image">
-    </div>
-
+    <main class="header">
+      
+          <div class="intro">
+              <p class="header-title">Hey There ! <strong class="highlight">This is Vivek</strong></p>
+              <img src="src/avatar-vivek.jpg" alt="vivek's avatar" >
+          </div>
+          <div class="resume">
+            <hr>
+            <p>I am a second year undergraduate student at <strong>National Institute of Technology, Jamshedpur,</strong> from <strong>Electronics & Communication Engineering</strong> branch.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quia sit suscipit? Veniam voluptate quam illo exercitationem laudantium tenetur sunt explicabo, eos doloremque autem, quibusdam assumenda natus dicta totam voluptatibus ipsa corrupti velit facilis iure repudiandae. Ad fugit possimus aspernatur consequatur eligendi minus nulla non provident veniam architecto! Voluptas, sit. Atque quod, dolores ea unde deserunt explicabo eum. Corporis quidem quia nisi exercitationem! Nemo unde dicta sint vitae. Enim, quas! Consequuntur error repellat ab quidem! Dolore unde nisi quis alias, accusamus corrupti veniam recusandae facere, autem ipsa tempora cum, quia illo beatae laboriosam accusantium quae voluptate animi velit aliquid cumque.</p>
+            <hr />
+            <h3>Education</h3>
+            <table colspan = "3">
+              <thead>
+                <tr>
+                  <th>Institution</th> 
+                  <th>Year</th>
+                  <th>Percentage/C.G.P.A</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> De Nobili School CTPS</td>
+                  <td>2008 - 2018</td>
+                  <td>87%</td>
+                </tr>
+                <tr>
+                  <td>DAV Public School</td>
+                  <td>2018 - 2020</td>
+                  <td>93%</td>
+                </tr>
+                <tr>
+                  <td>NIT Jamshedpur</td>
+                  <td>2021 - present</td>
+                  <td>8.30</td>
+                </tr>
+              </tbody>
+            </table>
+            <br><br>
+            <hr />
+            <h3>Hobbies</h3>
+            <!-- <ol type = 'i'> or start = 8 -->
+              <ol class = "hobbies">
+              <li>Reading </li>
+              <li>Learning new languages</li>
+              <li>Listening to music</li>
+            </ol>
+          </div>
+      </main>
   </main>
+  <section>
+    <div class="social" id = "social">
+      <h2>Connect with us</h2>
+      <ul class="box-social">
+        <li><a href="https://github.com/vivekrawani" target="_blank"> <i class="fab fa-github"></i></i></a></li>
+        <li><a href="https://www.linkedin.com/in/vivek-kumar-rawani-70a856221/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#social"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://twitter.com/Vivek_Rawani01" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#social" > <i class="fab fa-facebook"></i></i></a></li>
+      
+      </ul>
+    </div>
+  </section>
   <footer class="footer">
+    <button class="mail-me clickable"><i class="fas fa-envelope"></i>
+  </button>
     <div class="f-links">
       <div class="know-us">
         <h2>Get to know us</h2>
         <ul class="box">
           <li><a href="#">About Us</a></li>
-          <li><a href="#">Carres</a></li>
           <li><a href="#">Press Releases</a></li>
-          <li><a href="#">Gift a smile</a></li>
-        </ul>
-      </div>
-      <div class="social">
-        <h2>Connect with us</h2>
-        <ul class="box">
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">YouTube</a></li>
-          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Plant a tree in your name</a></li>
         </ul>
       </div>
       <div class="make-money">
         <h2>Make money with us</h2>
         <ul class="box">
-          <li><a href="#">Grow your local business</a> </li>
           <li><a href="#">Become an affliate</a> </li>
           <li><a href="#">Advertise</a> </li>
           <li><a href="#">Sell Products</a> </li>
@@ -84,7 +120,7 @@
 
     </div>
     <div class="b-footer">
-      <p>Copyright (c) 2022 Copyright Holder All Rights Reserved. </p>
+      <p>Made with ❤️ by Vivek</p>
     </div>
   </footer>
   <script src="index.js"></script>
